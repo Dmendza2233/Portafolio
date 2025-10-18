@@ -44,7 +44,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .titulo {
         margin-top: 5rem;
         font-size: 5rem;
@@ -59,7 +59,7 @@ body {
     font-family: var(--fuente-principal);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .presentacion p {
         font-size: 1.5rem;
         max-width: 70%;
@@ -110,14 +110,14 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .navegacion-principal {
         flex-direction: row;
         justify-content: space-evenly;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .navegacion-principal a {
         margin: 1rem;
     }
@@ -143,7 +143,7 @@ body {
     transition: 0.5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .presentacion button {
         width: 15rem;
         height: 4rem;
@@ -162,7 +162,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .scroll {
         margin-top: 5rem;
     }
