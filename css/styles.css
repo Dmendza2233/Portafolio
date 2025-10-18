@@ -14,11 +14,13 @@ html {
     color: var(--color-primario);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
-.hero{
+.hero {
     min-height: 100dvh;
 }
 
@@ -150,36 +152,44 @@ body {
     }
 }
 
-.scroll{
+.scroll {
     margin-top: 10rem;
     display: flex;
     justify-content: center;
-    align-items: center;
     cursor: pointer;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
-    .scroll{
+    .scroll {
         margin-top: 5rem;
     }
-    
+
 }
 
-.scroll img{
+.scroll img {
     width: 4rem;
     height: 4rem;
     animation: bounce 2s infinite;
-}   
+}
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-10px);
     }
+
     60% {
         transform: translateY(-5px);
     }
 }
-
