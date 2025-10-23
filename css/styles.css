@@ -46,7 +46,7 @@ body {
 
 @media (max-width: 900px) {
     .titulo {
-        margin-top: 10rem;
+        margin-top: 8rem;
         font-size: 7rem;
     }
 }
@@ -176,10 +176,10 @@ body {
 
 @media (max-width: 700px) {
     .presentacion button {
-        width: 15rem;
-        height: 4rem;
+        width: 20rem;
+        height: 5rem;
         margin-bottom: 1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
